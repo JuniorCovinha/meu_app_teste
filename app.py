@@ -11,7 +11,7 @@ st.image("https://i.imgur.com/SmktDIH.png")
 st.title("LETRAS DE MÚSICA")
 
 banda = st.text_input("Digite o nome da banda: ", key="banda")
-musica = st.text_input("Digite a música: ", key="musica")
+musica = st.text_input("Digite o nome da música: ", key="musica")
 pesquisar = st.button("Pesquisar")
 
 if pesquisar:

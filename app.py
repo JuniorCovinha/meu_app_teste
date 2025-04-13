@@ -8,7 +8,7 @@ def buscar_letra(banda, musica):
     return letra
 
 st.image("https://i.imgur.com/SmktDIH.png")
-st.title("LETRAS DE MÚSICA")
+st.title("OI MEU AMOR TE AMO")
 
 banda = st.text_input("Digite o nome da banda: ", key="banda")
 musica = st.text_input("Digite o nome da música: ", key="musica")
